@@ -10,7 +10,8 @@
   </head>
   <body>
     <div class="fixed flex flex-col h-screen items-end p-4 right-0">
-      <div id="iframe" class="border flex-1 mb-2 overflow-hidden rounded rounded-lg">
+      <div id="iframe" class="flex-1 mb-2 overflow-hidden rounded rounded-lg
+        shadow-sm transition duration-700">
         <iframe id="sn_va_web_client" title="ServiceNow Virtual Agent Client" src="https://incentivetgsvsdemo12.service-now.com/sn_va_web_client_app_embed.do?sysparm_skip_load_history=true" class="h-full">
         </iframe>
       </div>
@@ -25,12 +26,12 @@
     <script>
       const toggle = document.getElementById('chatbot-trigger');
       const iframe = document.getElementById('iframe');
-      let isToggleHidden = iframe.classList.contains('hidden');
+      let isToggleHidden = iframe.classList.contains('invisible');
       toggle.addEventListener('click', (event) => {
         if (isToggleHidden) {
-          iframe.classList.remove('hidden');
+          iframe.classList.remove('invisible', 'opacity-0');
         } else {
-          iframe.classList.add('hidden');
+          iframe.classList.add('invisible', 'opacity-0');
         }
         isToggleHidden = !isToggleHidden;
       });
