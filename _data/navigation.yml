@@ -11,17 +11,3 @@
   
 - title: Druid
   url: /druid
-
-
-
-
-{% comment %}
-#example with sublinks, not good for the button navlist though
-- title: ChatBots and Conversational AI
-  url: /
-  sublinks:
-    - title: ServiceNow
-      url: /servicenow
-    - title: OneReach
-      url: /onereach
-{% endcomment %}
