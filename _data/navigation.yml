@@ -1,0 +1,14 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+
+- title: ChatBot and Conversation AI
+  url: /
+  sublinks:
+    - title: ServiceNow
+      url: /servicenow
+    - title: OneReach
+      url: /onereach
+    - title: Druid
+      url: /
