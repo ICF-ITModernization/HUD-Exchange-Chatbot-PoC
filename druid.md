@@ -1,6 +1,8 @@
+---
 layout: page
 title: "druid"
 permalink: /icf-hyperautomation.github.io/druid/
+---
 
 <script type="text/javascript">
 document.addEventListener("DOMContentLoaded", function(event) {
