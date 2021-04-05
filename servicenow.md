@@ -1,3 +1,8 @@
+---
+title: DruidAI
+layout: default
+---
+
 <!doctype html>
 <html lang="en">
   <head>
