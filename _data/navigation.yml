@@ -3,12 +3,10 @@
 - title: Home
   url: /
 
-- title: ChatBot and Conversation AI
+- title: ChatBots and Conversational AI
   url: /
   sublinks:
     - title: ServiceNow
       url: /servicenow
     - title: OneReach
       url: /onereach
-    - title: Druid
-      url: /
