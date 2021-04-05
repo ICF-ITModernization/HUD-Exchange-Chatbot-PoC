@@ -1,9 +1,8 @@
 ---
-title: DruidAI
+title: ServiceNow
 layout: default
 ---
 
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
