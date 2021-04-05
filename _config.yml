@@ -6,11 +6,5 @@ title: ICF HyperAutomation
 # Your name to show in the footer
 author: ICF HyperAutomation
 
-# --- List of links in the navigation bar --- #
-
-navbar-links:
- # About Me: "aboutme"
-  Resources:
-    - ServiceNow: "https://icf-hyperautomation.github.io/servicenow"
-    - OneReach: "https://icf-hyperautomation.github.io/onereach"
- # Author's home: "https://deanattali.com"
+#baseUrl used in the navbar feature
+baseurl: ""
