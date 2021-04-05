@@ -12,6 +12,7 @@
 <!-- Then we build the nav bar. -->
 <nav>
     {% for entry in site.data.navigation %}
-  [entry.title ]({{ site.baseurl }}{{ entry.url }}){: .btn .btn-purple }
+   <button type="button" onClick="document.location={{ site.baseurl }}{{ entry.url  }}">{{ entry.title }}</button> 
+    {% endfor %}
 </nav>
 
