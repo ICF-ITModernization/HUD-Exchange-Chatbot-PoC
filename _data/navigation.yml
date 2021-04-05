@@ -2,11 +2,12 @@
 
 - title: Home
   url: /
-
-- title: ChatBots and Conversational AI
-  url: /
-  sublinks:
-    - title: ServiceNow
-      url: /servicenow
-    - title: OneReach
-      url: /onereach
+  
+- title: ServiceNow
+  url: /servicenow
+  
+- title: OneReach
+  url: /onereach
+  
+- title: Druid
+  url: /druid
