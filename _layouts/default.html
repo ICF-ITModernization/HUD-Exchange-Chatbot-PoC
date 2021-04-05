@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <!--a id="skip-to-content" href="#content">Skip to the content.</a -->
+    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -46,7 +46,7 @@
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
-        <span class="site-footer-credits">This page brought to you by the ICF HyperAutomation Team <!--a href="https://ICF.com">ICF</a --></span>
+        <span class="site-footer-credits">This page brought to you by the ICF HyperAutomation Team <!-- <a href="https://ICF.com">ICF</a> --></span>
       </footer>
     </main>
   </body>
