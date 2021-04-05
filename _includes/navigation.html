@@ -13,5 +13,6 @@
 <nav>
     {% for entry in site.data.navigation %}
   [entry.title ]({{ site.baseurl }}{{ entry.url }}){: .btn .btn-purple }
+    {% endfor %}
 </nav>
 
