@@ -13,6 +13,7 @@ export default function DruidPage(props) {
     <>
       <Head>
         <link href="https://huie.community.druidplatform.com/druid_webchat.css" rel="stylesheet" />
+        <title>ICF Hyperautomation Chatbot - ServiceNow Virtual Agent</title>
       </Head>
       <Layout>
         <h1 className="text-3xl">Druid Chatbot</h1>

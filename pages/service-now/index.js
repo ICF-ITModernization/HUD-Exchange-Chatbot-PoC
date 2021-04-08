@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import { Chatbot, Layout } from "../../components";
 
 export default function ServiceNowPage(props) {
   return (
     <>
+      <Head>
+        <title>ICF Hyperautomation Chatbot - ServiceNow Virtual Agent</title>
+      </Head>
       <Layout>
         <h1 className="text-3xl">ServiceNow Integrated Chatbot</h1>
         <p className="mt-4">This Chatbot uses the ServiceNow integrated "Virtual Agent"</p>
