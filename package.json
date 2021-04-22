@@ -1,5 +1,5 @@
 {
-  "name": "chatbot",
+  "name": "HUD Exchange chatbot PoC",
   "version": "0.1.0",
   "private": true,
   "scripts": {
