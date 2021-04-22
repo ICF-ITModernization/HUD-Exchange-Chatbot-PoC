@@ -5,7 +5,7 @@ export default function Layout(props) {
 
   return (
     <>
-      <div className="fixed flex flex-col h-screen items-end p-4 right-0 inset-y-0 mr-24">
+      <div className="fixed flex flex-col h-4/6 items-end p-4 right-0 bottom-0 mr-24 z-50 ">
         <div className={`border flex-1 mb-2 overflow-hidden rounded rounded-lg transition duration-700 ${isOpen ? '' : 'invisible opacity-0'}`}>
           {props.children}
         </div>
