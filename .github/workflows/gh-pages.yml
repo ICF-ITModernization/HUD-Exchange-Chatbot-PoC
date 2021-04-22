@@ -18,8 +18,8 @@ jobs:
           node-version: '16'
           check-latest: true
       - run: npm install
-      - run: npm build     # runs `next build`
-      - run: npm export    # runs `next export`
+      - run: npm run build     # runs `next build`
+      - run: npm run export    # runs `next export`
         env:
           CI: true
           DEPLOY_TARGET: gh-pages
