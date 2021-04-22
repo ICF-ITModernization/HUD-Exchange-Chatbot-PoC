@@ -288,7 +288,7 @@ export default function HUDlayout(props) {
         <h3 class="text-over-image" style={{zIndex: 40 }}><a href="/program-support/my-question/">Ask a Basic Policy Question on a HUD Program</a></h3>
         </div>
         <div class="looking-for-body">
-        <p>Get answers to the following types of questions using <a href="/program-support/my-question/">Ask A Question</a>:</p>
+        <p>Get answers to the following types of questions:</p>
         <ul class="get-assistance-check-list">
         <li>Eligible activities, costs, and participants</li>
         <li>Income determination, rent limits, property standards, program income</li>
@@ -301,7 +301,7 @@ export default function HUDlayout(props) {
         <h3 class="text-over-image" style={{zIndex: 40 }}><a href="/program-support/my-question/">Ask a HUD Reporting System Question (e.g., <em>e-snaps</em>, IDIS, DRGR)</a></h3>
         </div>
         <div class="looking-for-body">
-        <p>Request support from professionals on the following using <a href="/program-support/my-question/">Ask A Question</a>:</p>
+        <p>Get answers to the following types of questions:</p>
         <ul class="get-assistance-check-list">
         <li>System errors and troubleshooting, password resets, user accounts</li>
         <li>Drawdowns, activity setup and update, submitting APRs and QPRs</li>
