@@ -17,9 +17,9 @@ jobs:
         with:
           node-version: '16'
           check-latest: true
-      - run: yarn install
-      - run: yarn build     # runs `next build`
-      - run: yarn export    # runs `next export`
+      - run: npm install
+      - run: npm build     # runs `next build`
+      - run: npm export    # runs `next export`
         env:
           CI: true
           DEPLOY_TARGET: gh-pages
