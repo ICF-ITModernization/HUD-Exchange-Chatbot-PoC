@@ -1,5 +1,3 @@
-import { default as Chatbot } from "./Chatbot";
-
 export default function HUDlayout(props) {
     return (
         <html lang="en-us">
@@ -246,7 +244,10 @@ export default function HUDlayout(props) {
         </header>
         <div class="expand-control">
         <main>
-        <div class="mura-region"><div class="mura-region-local"></div></div>
+           {props.children}
+
+
+        {/* <div class="mura-region"><div class="mura-region-local"></div></div>
         <div class="container" id="mainContent">
         <div class="row">
         <div class="col-md-12">
@@ -355,7 +356,9 @@ export default function HUDlayout(props) {
         </div>
         </div>
         </div>
-        </div>
+        </div> */}
+
+
         </main>
         </div>
         <div class="wrapper footer mt-2">
@@ -417,14 +420,6 @@ export default function HUDlayout(props) {
         </script>
         <script src="https://www.hudexchange.info/sites/onecpd/themes/hudexchange/js/highcontrast.js"></script>
         <script src="//www.hudexchange.info/core/modules/v1/cta/js/mura.displayobject.cta.min.js" ></script>
-        <Chatbot>
-          <iframe
-            id="sn_va_web_client"
-            title="OneReach NCI Chatbot"
-            src="https://chat.icf.onereach.ai/hCSZQQRqQaq4I5l1t_BQAA/07d7db2-hudexchange"
-            className="h-full"
-          />
-        </Chatbot>
         </body>
         </html>
     );
