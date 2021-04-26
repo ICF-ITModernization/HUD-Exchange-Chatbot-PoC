@@ -1,5 +1,5 @@
-import { HUDlayout } from "../components";
+import { default as ProgramSupportPage } from "../pages/program-support";
 
 export default function Home(props) {
-  return <HUDlayout />;
+  return <ProgramSupportPage />;
 }
