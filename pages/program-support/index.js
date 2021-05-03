@@ -41,11 +41,11 @@ export default function ProgramSupportPage(props) {
         </div>
         </div>
         <div class="col-md-4 looking-for">
-        <div class="image-header-container"><a href="/program-support/virtual-assistant"><img alt="Ask a Basic Policy Question on a HUD Program" class="bg-image" src="https://www.hudexchange.info/sites/onecpd/assets/Image/bg-looking-for-policy.jpg" /></a>
-        <h3 class="text-over-image" style={{zIndex: 40 }}><a href="/program-support/virtual-assistant">Ask a Basic Policy Question on a HUD Program</a></h3>
+        <div class="image-header-container"><a href="/program-support/ask-a-question"><img alt="Ask a Basic Policy Question on a HUD Program" class="bg-image" src="https://www.hudexchange.info/sites/onecpd/assets/Image/bg-looking-for-policy.jpg" /></a>
+        <h3 class="text-over-image" style={{zIndex: 40 }}><a href="/program-support/ask-a-question">Ask a Basic Policy Question on a HUD Program</a></h3>
         </div>
         <div class="looking-for-body">
-        <p>Get answers to the following types of questions using <a href="/program-support/virtual-assistant">Ask A Question</a>:</p>
+        <p>Get answers to the following types of questions using <a href="/program-support/ask-a-question">Ask A Question</a>:</p>
         <ul class="get-assistance-check-list">
         <li>Eligible activities, costs, and participants</li>
         <li>Income determination, rent limits, property standards, program income</li>
@@ -54,11 +54,11 @@ export default function ProgramSupportPage(props) {
         </div>
         </div>
         <div class="col-md-4 looking-for">
-        <div class="image-header-container"><a href="/program-support/virtual-assistant"><img alt="Ask a HUD Reporting System Question (e.g., &lt;i&gt;e-snaps&lt;/i&gt;, IDIS, DRGR" class="bg-image" src="https://www.hudexchange.info/sites/onecpd/assets/Image/bg-looking-for-reporting.jpg" /></a>
-        <h3 class="text-over-image" style={{zIndex: 40 }}><a href="/program-support/virtual-assistant">Ask a HUD Reporting System Question (e.g., <em>e-snaps</em>, IDIS, DRGR)</a></h3>
+        <div class="image-header-container"><a href="/program-support/ask-a-question"><img alt="Ask a HUD Reporting System Question (e.g., &lt;i&gt;e-snaps&lt;/i&gt;, IDIS, DRGR" class="bg-image" src="https://www.hudexchange.info/sites/onecpd/assets/Image/bg-looking-for-reporting.jpg" /></a>
+        <h3 class="text-over-image" style={{zIndex: 40 }}><a href="/program-support/ask-a-question">Ask a HUD Reporting System Question (e.g., <em>e-snaps</em>, IDIS, DRGR)</a></h3>
         </div>
         <div class="looking-for-body">
-        <p>Get answers to the following types of questions using <a href="/program-support/virtual-assistant">Ask A Question</a>:</p>
+        <p>Get answers to the following types of questions using <a href="/program-support/ask-a-question">Ask A Question</a>:</p>
         <ul class="get-assistance-check-list">
         <li>System errors and troubleshooting, password resets, user accounts</li>
         <li>Drawdowns, activity setup and update, submitting APRs and QPRs</li>
