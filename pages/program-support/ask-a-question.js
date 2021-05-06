@@ -21,14 +21,14 @@ export default function VirtualAssistantPage(props) {
               <br/><br/>
               The AFFH, CDBG, and HOME Ask A Question desks are closed and no longer accepting questions. Please contact your <a class="alert-link" href="https://www.hud.gov/program_offices/comm_planning/staff#fieldoffices">local CPD Field Office</a> or <a class="alert-link" href="https://www.hud.gov/program_offices/fair_housing_equal_opp/contact_fheo#c4">FHEO Regional Office</a> for assistance.
             </div>
-            <div class="relative flex flex-col min-h-60">
+            <div class="relative flex flex-col min-h-50">
               <div class="flex-1">
                 <iframe
                       id="sn_va_web_client"
                       title="OneReach NCI Chatbot"
                       src="https://chat.icf.onereach.ai/hCSZQQRqQaq4I5l1t_BQAA/07d7db2-hudexchange"
                       className="min-h-full w-full margin-0"
-                      height="800"
+                      height="500"
                       />
               </div>
             </div>
